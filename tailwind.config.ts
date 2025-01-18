@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        blob: "blob 7s infinite",
+        "spin-slow": "spin-slow 20s linear infinite",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
